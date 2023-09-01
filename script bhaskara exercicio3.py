@@ -10,7 +10,7 @@ x2 = (((-1)*b) - (delta**0.5))/(2*a)
 if delta == 0:
     print ('x1 = x2 =', x1)
 
-elif delta>0:
+elif delta<0:
     print('x1: ', x1)
     print('X2: ', x2)
     print('Delta: ', delta)
